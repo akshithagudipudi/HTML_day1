@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form practise</title>
+</head>
+<body>
+    <form>
+        <fieldset style=" width: 300px;background-color: bisque;">
+            <legend>Login Form</legend>
+            <div>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" placeholder="Enter your mail or username." required>
+            </div>
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="Password" id="password" placeholder="enter password" required minlength="8" maxlength="20">
+            </div>
+            <div>
+                Gender:
+                <br>
+                <input type="radio" id ="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="female">
+                <label for="female">Female</label>
+                <br>
+            </div>
+            <div>
+                <input type="submit" value="Login" style="background-color:aquamarine;">
+                <input type="submit"value = "Reset"style="background-color: green;">
+                <br>
+            </div>
+        </fieldset>
+        <br>
+    </form>
+    <form action="">
+        <input type="text" placeholder="text" required>
+        <input type="email" placeholder="email" required>
+        <input type="number"required>
+        <input type="submit">
+    </form>
+</body>
+</html>
